@@ -1,5 +1,5 @@
-import React from "react";
 import style from './List.module.scss';
+import Item from './Item';
 
 function List() {
     const tasks = [{
@@ -18,10 +18,13 @@ function List() {
             <h2>What to learn today?</h2>
             <ul>
                 {tasks.map((item, index) => (
-                    <li key={index} className={style.item}>
-                        <h3> {item.task}</h3>
-                        <span>{item.time}</span>
-                    </li>
+                    <Item
+                        key={index}
+                        {...item}
+                    // task={item.task}
+                    // time={item.time}
+                    // This way is better is you're using an API
+                    />
                 ))}
             </ul>
         </aside>

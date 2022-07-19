@@ -34,7 +34,9 @@ class Form extends React.Component {
                         required>
                     </input>
                 </div>
-                <Button />
+                <Button>
+                    Create
+                </Button>
             </form>
         )
     }
