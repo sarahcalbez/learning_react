@@ -12,7 +12,7 @@ A simple React-based application designed to help users track and manage tasks w
 
 ## Screenshot
 
-![App Screenshot](./src/assets/screenshot.png)
+![App Screenshot](./src/assets/img/screenshot.png)
 
 ## Installation
 
