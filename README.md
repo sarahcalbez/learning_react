@@ -18,12 +18,12 @@ A simple React-based application designed to help users track and manage tasks w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sarahcalbez/learning_react.git
+   git clone https://github.com/sarahcalbez/task_timer_react.git
 
 2.	Navigate to the project folder:
 
     ```bash
-    cd learning-react-app
+    cd task-timer-react-app
 3.	Install dependencies:
     ```bash
     yarn install
